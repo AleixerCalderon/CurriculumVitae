@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aleixer Alvarado Bernal - Senior .NET Developer</title>
+
+    <!-- html2canvas and jsPDF libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+
+    <!-- Export PDF script -->
+    <script src="export-pdf.js"></script>
+    <link rel="stylesheet" href="/content/css/main.css" />
+  </head>
+  <body>
+    <div class="container" id="cv-content">
+      <div class="cv-card">
+        <header class="header">
+          <div class="header-content">
+            <img
+              src="/content/img/fotoPerfil.jpg"
+              alt="Profile photo"
+              class="profile-img"
+            />
+            <div class="header-info">
+              <h1>Aleixer Alvarado Bernal</h1>
+              <div class="role">🚀 Senior .NET Developer</div>
+              <div class="code-snippet">
+                <div>
+                  Console.WriteLine("Turning ideas into code!");<span
+                    class="terminal-cursor"
+                    >|</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-info">
+              <div>📧 Aleixer.alvarado@outlook.com</div>
+              <div>📱 +57 318 487 0230</div>
+              <div>📍 Colombia, Soacha, Cl 24 Sur #16g-29 Corner</div>
+              <div>
+                <a
+                  href="https://github.com/abaleixer"
+                  target="_blank"
+                  class="aab-link"
+                  >🐙 github.com/abaleixer</a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://github.com/AleixerCalderon"
+                  target="_blank"
+                  class="aab-link"
+                  >🐙 github.com/AleixerCalderon</a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/aleixer-alvarado-bernal"
+                  target="_blank"
+                  class="aab-link"
+                  >🌐 linkedin.com/in/aleixer-alvarado-bernal</a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://aleixercalderon.github.io/HV/"
+                  target="_blank"
+                  class="aab-link"
+                  >🐙 Curriculum Vitae
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="main-content">
+          <aside class="sidebar">
+            <section class="skills">
+              <h2 class="section-title">🛠️ Technical Skills</h2>
+              <!-- Skill items -->
+              <div class="skill-item">
+                <div class="skill-name">
+                  <span>C# / ASP.NET</span><span>95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-name">
+                  <span>SQL Server</span><span>90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-name">
+                  <span>Angular</span><span>85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-name"><span>React</span><span>85%</span></div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-name">
+                  <span>JavaScript/TypeScript</span><span>80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-name">
+                  <span>Python/Django</span><span>60%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-name">
+                  <span>Azure Cloud</span><span>65%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-name">
+                  <span>SharePoint</span><span>75%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 75%"></div>
+                </div>
+              </div>
+            </section>
+
+            <section class="languages">
+              <h2 class="section-title">🌐 Languages</h2>
+              <div><strong>Spanish:</strong> Native</div>
+              <div><strong>English:</strong> Upper-Intermediate (B2)</div>
+            </section>
+
+            <section class="interests">
+              <h2 class="section-title">🎯 Areas of Interest</h2>
+              <div>🤖 .NET Core Development</div>
+              <div>☁️ Microsoft Azure</div>
+              <div>📱 Mobile Development</div>
+              <div>🌐 Web Applications</div>
+              <div>📊 Databases</div>
+              <div>🛠️ DevOps & CI/CD</div>
+            </section>
+
+            <div class="stats-grid">
+              <div class="stat-item">
+                <span class="stat-number">11+</span>
+                <span>Years Exp.</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">80+</span>
+                <span>Projects</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">20</span>
+                <span>Technologies</span>
+              </div>
+            </div>
+          </aside>
+
+          <main class="main-section-en">
+            <section class="summary">
+              <h2 class="section-title">💡 Professional Summary</h2>
+              <p>
+                Senior .NET developer with over 11 years of solid experience in
+                enterprise application development. Specialized in C#, ASP.NET,
+                Angular, and SQL Server. Competent, entrepreneurial, and detail-oriented,
+                with proven leadership skills in delivering high-quality technology solutions.
+                Continuously learning and staying up-to-date with emerging technologies,
+                committed to excellence and teamwork.
+              </p>
+            </section>
+
+            <section class="experience-en">
+              <h2 class="section-title">💼 Professional Experience</h2>
+
+              <div class="experience-item">
+                <div class="item-header">
+                  <div>
+                    <div class="item-title">Senior Developer</div>
+                    <div class="item-company">Softtek</div>
+                  </div>
+                  <div class="item-date">Sep 2021 - Present</div>
+                </div>
+                <p>
+                  Developed and maintained enterprise applications for clients such
+                  as Pluspetrol and Stonex. Responsible for quality assurance testing,
+                  .NET and SQL Server development, ensuring robust and scalable solutions.
+                </p>
+                <div class="tech-tags">
+                  <span class="tech-tag">C#</span>
+                  <span class="tech-tag">.NET</span>
+                  <span class="tech-tag">SQL Server</span>
+                  <span class="tech-tag">Angular</span>
+                </div>
+              </div>
+
+              <div class="experience-item">
+                <div class="item-header">
+                  <div>
+                    <div class="item-title">Senior Developer</div>
+                    <div class="item-company">SII-Group</div>
+                  </div>
+                  <div class="item-date">Jan 2019 - Sep 2021</div>
+                </div>
+                <p>
+                  Built applications for BNP PARIBAS CARDIF and Servientrega. Designed ETLs
+                  that improved and optimized data synchronization processes, significantly
+                  boosting operational efficiency.
+                </p>
+                <div class="tech-tags">
+                  <span class="tech-tag">.NET</span>
+                  <span class="tech-tag">SQL Server</span>
+                  <span class="tech-tag">ETL</span>
+                  <span class="tech-tag">Java</span>
+                </div>
+              </div>
+
+              <div class="experience-item">
+                <div class="item-header">
+                  <div>
+                    <div class="item-title">Web Developer</div>
+                    <div class="item-company">Imaginamos</div>
+                  </div>
+                  <div class="item-date">Apr 2018 - Dec 2018</div>
+                </div>
+                <p>
+                  Front-end development in Angular for Sodexo and .NET API for ETB.
+                  Implemented significant security enhancements for existing platforms and
+                  developed a full e-commerce solution.
+                </p>
+                <div class="tech-tags">
+                  <span class="tech-tag">Angular 5</span>
+                  <span class="tech-tag">C#</span>
+                  <span class="tech-tag">.NET API</span>
+                  <span class="tech-tag">E-commerce</span>
+                </div>
+              </div>
+
+              <div class="experience-item">
+                <div class="item-header">
+                  <div>
+                    <div class="item-title">Head of Systems</div>
+                    <div class="item-company">Comercializadora Manetty</div>
+                  </div>
+                  <div class="item-date">Jan 2007 - Mar 2018</div>
+                </div>
+                <p>
+                  Designed and implemented all technology infrastructure, including sales
+                  software for 18 points of sale, web applications, and e-commerce. Led the
+                  development team and advised on new technologies across the business group.
+                </p>
+                <div class="tech-tags">
+                  <span class="tech-tag">.NET</span>
+                  <span class="tech-tag">Angular</span>
+                  <span class="tech-tag">SQL Server</span>
+                  <span class="tech-tag">Microsoft Azure</span>
+                  <span class="tech-tag">E-commerce</span>
+                </div>
+              </div>
+            </section>
+
+            <section class="education">
+              <h2 class="section-title">🎓 Education & Certifications</h2>
+
+              <div class="education-item">
+                <div class="item-header">
+                  <div>
+                    <div class="item-title">Systems Engineering</div>
+                    <div class="item-company">National Open and Distance University (UNAD)</div>
+                  </div>
+                  <div class="item-date">Expected 2025</div>
+                </div>
+                <p>
+                  Specializing in software development and technology architectures.
+                </p>
+              </div>
+
+              <div class="education-item">
+                <div class="item-header">
+                  <div>
+                    <div class="item-title">Microsoft Five-Star Developer</div>
+                    <div class="item-company">Microsoft</div>
+                  </div>
+                  <div class="item-date">2005</div>
+                </div>
+                <p>Scalable C# Software.</p>
+              </div>
+
+              <div class="education-item">
+                <div class="item-header">
+                  <div>
+                    <div class="item-title">General Certifications</div>
+                    <div class="item-company">Microsoft</div>
+                    <div class="item-company">Udemy</div>
+                    <div class="item-company">Otras</div>
+                  </div>
+                  <div class="item-date">2005 - 2025</div>
+                </div>
+              </div>
+            </section>
+          </main>
+        </div>
+      </div>
+    </div>
+
+    <!-- Download PDF Button -->
+    <button class="download-btn" id="export-pdf" onclick="exportPageToPDF()">
+      📄 Download PDF
+    </button>
+
+    <script>
+      // Animate skill bars on load
+      window.addEventListener("load", function () {
+        const skillBars = document.querySelectorAll(".skill-progress");
+        skillBars.forEach((bar) => {
+          const width = bar.style.width;
+          bar.style.width = "0";
+          setTimeout(() => {
+            bar.style.width = width;
+          }, 500);
+        });
+      });
+
+      // Typewriter effect
+      const codeText = document.querySelector(".code-snippet div");
+      const originalText = 'console.log("Transforming ideas into code!");';
+      let i = 0;
+
+      function typeWriter() {
+        if (i < originalText.length) {
+          codeText.innerHTML =
+            originalText.substring(0, i + 1) +
+            '<span class="terminal-cursor">|</span>';
+          i++; setTimeout(typeWriter, 100); }
+      }
+      setTimeout(typeWriter, 1000);
+    </script>
+  </body>
+</html>
